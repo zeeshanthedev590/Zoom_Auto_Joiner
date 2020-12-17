@@ -5,7 +5,7 @@ pyautogui.FAILSAFE = False
 id = input('What Is Your Meeting Id:')
 passcode = input('What Is Your Passcode:')
 os.startfile('C://Users//Zeeshan Khalid//AppData//Roaming//Zoom//bin//zoom.exe')
-time.sleep(3)
+time.sleep(1)
 
 join = pyautogui.locateOnScreen(
     'G://My Projects//Python Projects//Zoom_Auto_Joiner//join.png')
@@ -13,7 +13,7 @@ print(join)
 pyautogui.moveTo(join)
 pyautogui.click(join)
 
-time.sleep(2)
+time.sleep(1)
 id_in = pyautogui.locateOnScreen(
     'G://My Projects//Python Projects//Zoom_Auto_Joiner//id.png')
 
@@ -22,7 +22,7 @@ pyautogui.moveTo(id_in)
 pyautogui.click(id_in)
 pyautogui.write(id)
 
-time.sleep(2)
+time.sleep(1)
 video = pyautogui.locateOnScreen(
     'G://My Projects//Python Projects//Zoom_Auto_Joiner//video.png')
 
@@ -30,7 +30,7 @@ print(video)
 pyautogui.moveTo(video)
 pyautogui.click(video)
 
-time.sleep(2)
+time.sleep(1)
 btn1 = pyautogui.locateOnScreen(
     'G://My Projects//Python Projects//Zoom_Auto_Joiner//btn1.png')
 
